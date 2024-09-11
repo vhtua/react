@@ -14,7 +14,7 @@ import ComponentA from "./ComponentA"
 import ComponentB from "./ComponentB"
 import Reference from "./Reference";
 import StopWatch from "./StopWatch";
-
+import ReducerSample from "./ReducerSample";
 
 function App() {
 
@@ -64,6 +64,9 @@ function App() {
 
       <br/>
       <StopWatch/>
+
+      <br/>
+      <ReducerSample/>
     </>
   );
 }
